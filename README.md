@@ -1,4 +1,4 @@
-DecToBin. PHP Tutorials. Simple Input/Output. Strings. Algorithms. Console Application. 
+DecToBin. PHP Tutorials. Simple Input/Output. Strings. Algorithms. Console Application.
 A console application in the Java programming language. 
 The program does the following:
   1. Prompts the user to enter an integer.
