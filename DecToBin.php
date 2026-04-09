@@ -18,6 +18,6 @@
     {
         $strBinNum = "0";
     }
-    printf("The binary equivalent of the number %d is %s\r\n", $uNum, $strBinNum);
+    printf("The binary equivalent of the decimal number %d is %s\r\n", $uNum, $strBinNum);
     fgetc(STDIN);
 ?>
