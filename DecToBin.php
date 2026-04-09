@@ -1,7 +1,8 @@
 <?php
+    const MAX_INT = 2 ** 32 - 1;
     echo("Input an unsigned integer number\r\n");
     $uNum = intval(chop(fgets(STDIN)));
-    if(($uNum < 0) or ($uNum > PHP_INT_MAX))
+    if(($uNum < 0) or ($uNum > MAX_INT))
     {
         echo("Invalid number format");
         exit(0);
@@ -17,6 +18,6 @@
     {
         $strBinNum = "0";
     }
-    printf("The binary equavalent of the number %d is %s\r\n", $uNum, $strBinNum);
+    printf("The binary equivalent of the number %d is %s\r\n", $uNum, $strBinNum);
     fgetc(STDIN);
 ?>
