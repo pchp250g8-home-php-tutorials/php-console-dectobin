@@ -11,7 +11,9 @@
     $strBinNum ="";
     while ($uTempVal > 0)
     {
-        $strBinNum = ($uTempVal % 2) . $strBinNum;
+        $nBinDigit = $uTempVal % 2;
+        $chBinDigit = chr($nBinDigit + ord("0"));
+        $strBinNum = $chBinDigit . $strBinNum;
         $uTempVal = intdiv($uTempVal, 2);
     }
     if(strlen($strBinNum) == 0)
